@@ -1,0 +1,46 @@
+body{
+    background-color: #dfdfdf;
+}
+
+.container{
+    width: 380px;
+    padding: 25px;
+    background-color: #0064BB;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    border: outset #ff8400;
+}
+
+.linha1{
+    display: inline-block;
+    margin-right: 185px;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background-color: #ff8400;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.C{
+    color: black;
+
+}
+
+.display input{
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 310px;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 30px;
+    color: #0064BB;
+    font-weight: 600;
+    border: inset #ff8400;
+}

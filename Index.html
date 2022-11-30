@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <script src="javaScript.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="display">
+            <input type="text" id="screen">
+        </div>
+        <div class="linha1">
+            <button type="button" class="C" value="C" onclick="clean();">C</button>
+        </div>
+        <button type="button" value="**" onclick="preencher('²');">X²</button>
+        <button type="button" value="7" onclick="preencher(7);">7</button>
+        <button type="button" value="8" onclick="preencher(8);">8</button>
+        <button type="button" value="9" onclick="preencher(9);">9</button>
+        <button type="button" value="/" onclick="preencher('÷');">÷</button>
+        <button type="button" value="4" onclick="preencher(4);">4</button>
+        <button type="button" value="5" onclick="preencher(5);">5</button>
+        <button type="button" value="6" onclick="preencher(6);">6</button>
+        <button type="button" value="*" onclick="preencher('×');">X</button>
+        <button type="button" value="1" onclick="preencher(1);">1</button>
+        <button type="button" value="2" onclick="preencher(2);">2</button>
+        <button type="button" value="3" onclick="preencher(3);">3</button>
+        <button type="button" value="+" onclick="preencher('+');">+</button>
+        <button type="button" value="." onclick="preencher('.');">.</button>
+        <button type="button" value="0" onclick="preencher(0);">0</button>
+        <button type="button" value="=" onclick="calcular();">=</button>
+        <button type="button" value="-" onclick="preencher('-');">-</button>
+    </div>
+
+
+
+    </body>
+</html>
